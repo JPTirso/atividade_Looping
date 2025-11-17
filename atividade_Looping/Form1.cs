@@ -18,5 +18,12 @@ namespace atividade_Looping
         {
             Application.Exit();
         }
+
+        private void ex2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmTemperatura temperatura = new FrmTemperatura();
+            temperatura.Show();
+        }
     }
 }

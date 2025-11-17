@@ -66,6 +66,7 @@
             ex2ToolStripMenuItem.Name = "ex2ToolStripMenuItem";
             ex2ToolStripMenuItem.Size = new Size(224, 26);
             ex2ToolStripMenuItem.Text = "Ex 2";
+            ex2ToolStripMenuItem.Click += ex2ToolStripMenuItem_Click;
             // 
             // ex3ToolStripMenuItem
             // 
