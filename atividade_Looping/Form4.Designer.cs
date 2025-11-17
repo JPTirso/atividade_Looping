@@ -1,6 +1,6 @@
 ﻿namespace atividade_Looping
 {
-    partial class FrmTabuada
+    partial class FrmComodo
     {
         /// <summary>
         /// Required designer variable.
@@ -32,15 +32,21 @@
             btnLimpar = new Button();
             btnVoltar = new Button();
             groupBox3 = new GroupBox();
+            label3 = new Label();
             label2 = new Label();
-            lstTabuada = new ListBox();
+            lstAreac = new ListBox();
+            txtAreaT = new TextBox();
             groupBox2 = new GroupBox();
             btnFor = new Button();
             btnDoWhile = new Button();
             btnWhile = new Button();
             groupBox1 = new GroupBox();
             lblNum = new Label();
-            txtNum = new TextBox();
+            txtComodo = new TextBox();
+            lblLarg = new Label();
+            txtComp = new TextBox();
+            txtLarg = new TextBox();
+            label1 = new Label();
             groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -84,8 +90,10 @@
             // 
             // groupBox3
             // 
+            groupBox3.Controls.Add(label3);
             groupBox3.Controls.Add(label2);
-            groupBox3.Controls.Add(lstTabuada);
+            groupBox3.Controls.Add(lstAreac);
+            groupBox3.Controls.Add(txtAreaT);
             groupBox3.Location = new Point(480, 16);
             groupBox3.Margin = new Padding(3, 4, 3, 4);
             groupBox3.Name = "groupBox3";
@@ -95,23 +103,41 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Áreas";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F);
+            label3.Location = new Point(7, 225);
+            label3.Name = "label3";
+            label3.Size = new Size(289, 28);
+            label3.TabIndex = 52;
+            label3.Text = "Essa é a área total da residência:";
+            // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
             label2.Location = new Point(7, 26);
             label2.Name = "label2";
-            label2.Size = new Size(206, 28);
+            label2.Size = new Size(320, 28);
             label2.TabIndex = 51;
-            label2.Text = "Resultado da tabuada:";
+            label2.Text = "Essas são as áreas de cada comodo:";
             // 
-            // lstTabuada
+            // lstAreac
             // 
-            lstTabuada.FormattingEnabled = true;
-            lstTabuada.Location = new Point(7, 56);
-            lstTabuada.Name = "lstTabuada";
-            lstTabuada.Size = new Size(292, 164);
-            lstTabuada.TabIndex = 36;
+            lstAreac.FormattingEnabled = true;
+            lstAreac.Location = new Point(7, 56);
+            lstAreac.Name = "lstAreac";
+            lstAreac.Size = new Size(292, 164);
+            lstAreac.TabIndex = 36;
+            // 
+            // txtAreaT
+            // 
+            txtAreaT.Location = new Point(7, 255);
+            txtAreaT.Name = "txtAreaT";
+            txtAreaT.ReadOnly = true;
+            txtAreaT.Size = new Size(292, 27);
+            txtAreaT.TabIndex = 51;
             // 
             // groupBox2
             // 
@@ -160,7 +186,11 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(lblNum);
-            groupBox1.Controls.Add(txtNum);
+            groupBox1.Controls.Add(txtComodo);
+            groupBox1.Controls.Add(lblLarg);
+            groupBox1.Controls.Add(txtComp);
+            groupBox1.Controls.Add(txtLarg);
+            groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(14, 16);
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
@@ -176,20 +206,61 @@
             lblNum.Font = new Font("Segoe UI", 12F);
             lblNum.Location = new Point(7, 26);
             lblNum.Name = "lblNum";
-            lblNum.Size = new Size(417, 28);
+            lblNum.Size = new Size(457, 28);
             lblNum.TabIndex = 40;
-            lblNum.Text = "Digite o numero de 1 a 9 que deseja adicionar:";
+            lblNum.Text = "Digite o numero de comodos que deseja adicionar:";
             // 
-            // txtNum
+            // txtComodo
             // 
-            txtNum.CausesValidation = false;
-            txtNum.Font = new Font("Segoe UI", 12F);
-            txtNum.Location = new Point(7, 56);
-            txtNum.Name = "txtNum";
-            txtNum.Size = new Size(183, 34);
-            txtNum.TabIndex = 35;
+            txtComodo.CausesValidation = false;
+            txtComodo.Font = new Font("Segoe UI", 12F);
+            txtComodo.Location = new Point(7, 56);
+            txtComodo.Name = "txtComodo";
+            txtComodo.PlaceholderText = "3";
+            txtComodo.Size = new Size(183, 34);
+            txtComodo.TabIndex = 35;
             // 
-            // FrmTabuada
+            // lblLarg
+            // 
+            lblLarg.AutoSize = true;
+            lblLarg.Font = new Font("Segoe UI", 12F);
+            lblLarg.Location = new Point(7, 98);
+            lblLarg.Name = "lblLarg";
+            lblLarg.Size = new Size(335, 28);
+            lblLarg.TabIndex = 50;
+            lblLarg.Text = "Digite a largura que deseja adicionar:";
+            // 
+            // txtComp
+            // 
+            txtComp.CausesValidation = false;
+            txtComp.Font = new Font("Segoe UI", 12F);
+            txtComp.Location = new Point(7, 200);
+            txtComp.Name = "txtComp";
+            txtComp.PlaceholderText = "3;3;3";
+            txtComp.Size = new Size(183, 34);
+            txtComp.TabIndex = 47;
+            // 
+            // txtLarg
+            // 
+            txtLarg.CausesValidation = false;
+            txtLarg.Font = new Font("Segoe UI", 12F);
+            txtLarg.Location = new Point(7, 128);
+            txtLarg.Name = "txtLarg";
+            txtLarg.PlaceholderText = "3;3;3";
+            txtLarg.Size = new Size(183, 34);
+            txtLarg.TabIndex = 49;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F);
+            label1.Location = new Point(7, 170);
+            label1.Name = "label1";
+            label1.Size = new Size(394, 28);
+            label1.TabIndex = 48;
+            label1.Text = "Digite o comprimento que deseja adicionar:";
+            // 
+            // FrmComodo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -198,8 +269,8 @@
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Name = "FrmTabuada";
-            Text = "Tabuada";
+            Name = "FrmComodo";
+            Text = "Calcular areas de comodos";
             groupBox4.ResumeLayout(false);
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
@@ -215,14 +286,20 @@
         private Button btnLimpar;
         private Button btnVoltar;
         private GroupBox groupBox3;
+        private Label label3;
         private Label label2;
-        private ListBox lstTabuada;
+        private ListBox lstAreac;
+        private TextBox txtAreaT;
         private GroupBox groupBox2;
         private Button btnFor;
         private Button btnDoWhile;
         private Button btnWhile;
         private GroupBox groupBox1;
         private Label lblNum;
-        private TextBox txtNum;
+        private TextBox txtComodo;
+        private Label lblLarg;
+        private TextBox txtComp;
+        private TextBox txtLarg;
+        private Label label1;
     }
 }

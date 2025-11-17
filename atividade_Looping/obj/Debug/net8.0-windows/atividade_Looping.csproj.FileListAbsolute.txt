@@ -17,3 +17,4 @@ C:\Users\jptir\OneDrive\Desktop\atividade_Looping\atividade_Looping\obj\Debug\ne
 C:\Users\jptir\OneDrive\Desktop\atividade_Looping\atividade_Looping\obj\Debug\net8.0-windows\atividade_Looping.genruntimeconfig.cache
 C:\Users\jptir\OneDrive\Desktop\atividade_Looping\atividade_Looping\obj\Debug\net8.0-windows\ref\atividade_Looping.dll
 C:\Users\jptir\OneDrive\Desktop\atividade_Looping\atividade_Looping\obj\Debug\net8.0-windows\atividade_Looping.FrmTemperatura.resources
+C:\Users\jptir\OneDrive\Desktop\atividade_Looping\atividade_Looping\obj\Debug\net8.0-windows\atividade_Looping.FrmComodo.resources

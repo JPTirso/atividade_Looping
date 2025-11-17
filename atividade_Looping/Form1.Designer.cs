@@ -57,14 +57,14 @@
             // ex1ToolStripMenuItem
             // 
             ex1ToolStripMenuItem.Name = "ex1ToolStripMenuItem";
-            ex1ToolStripMenuItem.Size = new Size(224, 26);
+            ex1ToolStripMenuItem.Size = new Size(119, 26);
             ex1ToolStripMenuItem.Text = "Ex 1";
             ex1ToolStripMenuItem.Click += ex1ToolStripMenuItem_Click;
             // 
             // ex2ToolStripMenuItem
             // 
             ex2ToolStripMenuItem.Name = "ex2ToolStripMenuItem";
-            ex2ToolStripMenuItem.Size = new Size(224, 26);
+            ex2ToolStripMenuItem.Size = new Size(119, 26);
             ex2ToolStripMenuItem.Text = "Ex 2";
             ex2ToolStripMenuItem.Click += ex2ToolStripMenuItem_Click;
             // 
@@ -73,6 +73,7 @@
             ex3ToolStripMenuItem.Name = "ex3ToolStripMenuItem";
             ex3ToolStripMenuItem.Size = new Size(224, 26);
             ex3ToolStripMenuItem.Text = "Ex 3";
+            ex3ToolStripMenuItem.Click += ex3ToolStripMenuItem_Click;
             // 
             // sairToolStripMenuItem
             // 
@@ -89,7 +90,7 @@
             Controls.Add(mtsMenu);
             MainMenuStrip = mtsMenu;
             Name = "FrmMenu";
-            Text = "Form1";
+            Text = "Menu";
             mtsMenu.ResumeLayout(false);
             mtsMenu.PerformLayout();
             ResumeLayout(false);

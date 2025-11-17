@@ -25,5 +25,12 @@ namespace atividade_Looping
             FrmTemperatura temperatura = new FrmTemperatura();
             temperatura.Show();
         }
+
+        private void ex3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmComodo comodo = new FrmComodo();
+            comodo.Show();
+        }
     }
 }
