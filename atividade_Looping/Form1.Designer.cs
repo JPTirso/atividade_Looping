@@ -30,10 +30,10 @@
         {
             mtsMenu = new MenuStrip();
             programasToolStripMenuItem = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             ex1ToolStripMenuItem = new ToolStripMenuItem();
             ex2ToolStripMenuItem = new ToolStripMenuItem();
             ex3ToolStripMenuItem = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
             mtsMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,17 +54,12 @@
             programasToolStripMenuItem.Size = new Size(94, 24);
             programasToolStripMenuItem.Text = "Programas";
             // 
-            // sairToolStripMenuItem
-            // 
-            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            sairToolStripMenuItem.Size = new Size(48, 24);
-            sairToolStripMenuItem.Text = "Sair";
-            // 
             // ex1ToolStripMenuItem
             // 
             ex1ToolStripMenuItem.Name = "ex1ToolStripMenuItem";
             ex1ToolStripMenuItem.Size = new Size(224, 26);
             ex1ToolStripMenuItem.Text = "Ex 1";
+            ex1ToolStripMenuItem.Click += ex1ToolStripMenuItem_Click;
             // 
             // ex2ToolStripMenuItem
             // 
@@ -77,6 +72,13 @@
             ex3ToolStripMenuItem.Name = "ex3ToolStripMenuItem";
             ex3ToolStripMenuItem.Size = new Size(224, 26);
             ex3ToolStripMenuItem.Text = "Ex 3";
+            // 
+            // sairToolStripMenuItem
+            // 
+            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            sairToolStripMenuItem.Size = new Size(48, 24);
+            sairToolStripMenuItem.Text = "Sair";
+            sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
             // FrmMenu
             // 

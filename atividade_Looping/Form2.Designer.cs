@@ -69,6 +69,7 @@
             btnLimpar.TabIndex = 43;
             btnLimpar.Text = "Limpar";
             btnLimpar.UseVisualStyleBackColor = true;
+            btnLimpar.Click += btnLimpar_Click;
             // 
             // btnVoltar
             // 
@@ -79,6 +80,7 @@
             btnVoltar.TabIndex = 44;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;
+            btnVoltar.Click += btnVoltar_Click;
             // 
             // groupBox3
             // 
@@ -99,9 +101,9 @@
             label2.Font = new Font("Segoe UI", 12F);
             label2.Location = new Point(7, 26);
             label2.Name = "label2";
-            label2.Size = new Size(320, 28);
+            label2.Size = new Size(206, 28);
             label2.TabIndex = 51;
-            label2.Text = "Essas são as áreas de cada comodo:";
+            label2.Text = "Resultado da tabuada:";
             // 
             // lstTabuada
             // 
@@ -143,6 +145,7 @@
             btnDoWhile.TabIndex = 39;
             btnDoWhile.Text = "Calcular Do-While";
             btnDoWhile.UseVisualStyleBackColor = true;
+            btnDoWhile.Click += btnDoWhile_Click;
             // 
             // btnWhile
             // 
@@ -152,6 +155,7 @@
             btnWhile.TabIndex = 46;
             btnWhile.Text = "Calcular While";
             btnWhile.UseVisualStyleBackColor = true;
+            btnWhile.Click += btnWhile_Click;
             // 
             // groupBox1
             // 
